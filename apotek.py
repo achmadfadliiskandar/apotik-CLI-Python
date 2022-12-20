@@ -49,46 +49,34 @@ def menu():
                 print("Data Jadwal Tugas Apotik\n")
                 showtugas.showdata()
                 print("\n")
-                print("INFO : JIKA INGIN KEMBALI KE MENU KETIKAN KELUAR/Keluar/keluar\n jika tidak mengetikan keyword / kata keluar maka aplikasi akan langsung keluar ke exit")
-                menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data")
-                    showtugas.showdata()
+                
             elif isi_menu == 2:
                 print("Data Menu Barang Apotik\n")
                 showbarang.showbarang()
                 print("\n")
-                print("INFO : JIKA INGIN KEMBALI KE MENU KETIKAN KELUAR/Keluar/keluar\n jika tidak mengetikan keyword / kata keluar maka aplikasi akan langsung keluar ke exit")
-                menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data")
-                    showbarang.showbarang()
+                
             elif isi_menu == 3:
                 print("Data Petugas Apotik\n")
                 showpetugas.showpetugas()
                 print("\n")
-                print("INFO : JIKA INGIN KEMBALI KE MENU KETIKAN KELUAR/Keluar/keluar\n jika tidak mengetikan keyword / kata keluar maka aplikasi akan langsung keluar ke exit")
-                menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data")
-                    showpetugas.showpetugas()
+                
             elif isi_menu == 4:
                 print("Data Pembelian Apotik\n")
                 showpembelian.showpembelian()
                 print("\n")
-                print("INFO : JIKA INGIN KEMBALI KE MENU KETIKAN KELUAR/Keluar/keluar\n jika tidak mengetikan keyword / kata keluar maka aplikasi akan langsung keluar ke exit")
-                menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 5:
                 print("Data Laporan Apotek\n")
                 print("Data Pembelian")
@@ -103,13 +91,10 @@ def menu():
                 print("Data Barang")
                 showbarang.showbarang()
                 print("\n")
-                print("INFO : JIKA INGIN KEMBALI KE MENU KETIKAN KELUAR/Keluar/keluar\n jika tidak mengetikan keyword / kata keluar maka aplikasi akan langsung keluar ke exit")
-                menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 6:
                 def storedata():
                     # import database
@@ -123,11 +108,10 @@ def menu():
                     db.commit()
                     print("data berhasil di tambah")
                     menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                    if menu_keluar == "keluar":
+                    menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                    if menu_keluar != False:
                         return menu()
-                    else:#perintah nya enter aja keluar aplikasi + dapat daata
-                        print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                        showpembelian.showpembelian()
+                    
                 storedata()
             elif isi_menu == 7:
                 def storedata():
@@ -143,11 +127,10 @@ def menu():
                     print("data berhasil di tambah")
                 storedata()
                 menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 8:
                 def storedata():
                     nama_petugas = input("Masukan Nama Petugas : ")
@@ -161,11 +144,10 @@ def menu():
                     print("data berhasil di tambah")
                 storedata()
                 menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 9:
                 showtugas.showdata()
                 def updatedata():
@@ -182,11 +164,10 @@ def menu():
                     print('data berhasil di Update')
                 updatedata()
                 menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 10:
                 showbarang.showbarang()
                 def updatedata():
@@ -204,11 +185,10 @@ def menu():
                     print('data berhasil di Update')
                 updatedata()
                 menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 11:
                 showpetugas.showpetugas()
                 def updatedata():
@@ -225,11 +205,10 @@ def menu():
                     print('data berhasil di Update')
                 updatedata()
                 menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 12:
                 showtugas.showdata()
                 def deletedata():
@@ -242,11 +221,10 @@ def menu():
                     print("data berhasil di hapus")
                 deletedata()
                 menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 13:
                 showbarang.showbarang()
                 def deletebarang():
@@ -259,11 +237,10 @@ def menu():
                     print("data berhasil di hapus")
                 deletebarang()
                 menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 14:
                 showpetugas.showpetugas()
                 def deletepetugas():
@@ -276,11 +253,10 @@ def menu():
                     print("data berhasil di hapus")
                 deletepetugas()
                 menu_keluar = input("Apakah Ingin Kembali Ke Menu : ").lower()
-                if menu_keluar == "keluar":
+                menu_keluar = input("Keluar Tekan Enter aja ").lower()
+                if menu_keluar != False:
                     return menu()
-                else:#perintah nya enter aja keluar aplikasi + dapat daata
-                    print("hasil data\nDan Anda Telah Keluar Dari aplikasi Terima kasih!!")
-                    showpembelian.showpembelian()
+                
             elif isi_menu == 15:
                 print("terima kasih sudah mencoba aplikasi CLI ini")
                 exit()
