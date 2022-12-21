@@ -1,4 +1,5 @@
 import mysql.connector
+import pandas as pd
 db = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -11,6 +12,10 @@ def showbarang():
     sql = "SELECT * FROM barang"
     cursor.execute(sql)
     result = cursor.fetchall()
+    data = result
+    df = pd.DataFrame(data)
+    df.to_csv('data.csv', mode='a', index=False, header=False)
+    print("Laporan Added")
     if cursor.rowcount == 0:
         print("data kosong")
     else:
