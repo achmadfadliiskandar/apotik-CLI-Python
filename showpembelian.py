@@ -1,4 +1,5 @@
 import mysql.connector
+import pandas as pd
 db = mysql.connector.connect(
     host = "localhost",
     user = "root",
@@ -11,6 +12,12 @@ def showpembelian():
     sql = "SELECT pembelian.id, pembelian.nama_pembeli, petugas.nama_petugas, barang.nama_barang,barang.hargabarang,pembelian.qty,barang.hargabarang*pembelian.qty as totalharga,tugas.hari FROM (((pembelian INNER JOIN petugas ON pembelian.id_petugas = petugas.id) INNER JOIN barang ON pembelian.id_barang = barang.id) INNER JOIN tugas on pembelian.id_tugas = tugas.id);"
     cursor.execute(sql)
     result = cursor.fetchall()
+    # added data in csv
+    data = result
+    df = pd.DataFrame(data)
+    df.to_csv('data.csv', mode='a', index=False, header=False)
+    print("Laporan Added")
+    # added data in csv
     if cursor.rowcount == 0:
         print("data kosong")
     else:

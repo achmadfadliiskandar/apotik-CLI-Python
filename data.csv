@@ -1,12 +1,103 @@
+Data Obat
+1,paracetamol,93,50000,2023-02-20
+3,Panadol,95,20000,2023-11-12
+5,Tolak Angin,100,12000,2023-10-10
+
+Data Pembelian
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
+
+Data Petugas
+4,yantoro,yanto@gmail.com,08943123989
+5,Rama,rama@gmail.com,08743975632
+
+Data Jadwal Tugas
+4,Senin,15:19:04,15:19:19
+6,Selasa,10:00:00,20:00:00
+7,Rabu,09:00:00,17:00:00
+8,Kamis,07:00:00,13:00:00
+16,Jumat,08:00:00,19:00:00
+
+
+1,paracetamol,93,50000,2023-02-20
+3,Panadol,95,20000,2023-11-12
+5,Tolak Angin,100,12000,2023-10-10
+4,yantoro,yanto@gmail.com,08943123989
+5,Rama,rama@gmail.com,08743975632
+
+4,Senin,15:19:04,15:19:19
+6,Selasa,10:00:00,20:00:00
+7,Rabu,09:00:00,17:00:00
+8,Kamis,07:00:00,13:00:00
+16,Jumat,08:00:00,19:00:00
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
 1,paracetamol,93,50000,2023-02-20
 3,Panadol,95,20000,2023-11-12
 5,Tolak Angin,100,12000,2023-10-10
 1,paracetamol,93,50000,2023-02-20
 3,Panadol,95,20000,2023-11-12
 5,Tolak Angin,100,12000,2023-10-10
+4,yantoro,yanto@gmail.com,08943123989
+5,Rama,rama@gmail.com,08743975632
+4,Senin,15:19:04,15:19:19
+6,Selasa,10:00:00,20:00:00
+7,Rabu,09:00:00,17:00:00
+8,Kamis,07:00:00,13:00:00
+16,Jumat,08:00:00,19:00:00
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
+4,Senin,15:19:04,15:19:19
+6,Selasa,10:00:00,20:00:00
+7,Rabu,09:00:00,17:00:00
+8,Kamis,07:00:00,13:00:00
+16,Jumat,08:00:00,19:00:00
+4,yantoro,yanto@gmail.com,08943123989
+5,Rama,rama@gmail.com,08743975632
+1,paracetamol,93,50000,2023-02-20
+3,Panadol,95,20000,2023-11-12
+5,Tolak Angin,100,12000,2023-10-10
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
+4,Senin,15:19:04,15:19:19
+6,Selasa,10:00:00,20:00:00
+7,Rabu,09:00:00,17:00:00
+8,Kamis,07:00:00,13:00:00
+16,Jumat,08:00:00,19:00:00
+4,yantoro,yanto@gmail.com,08943123989
+5,Rama,rama@gmail.com,08743975632
 1,paracetamol,93,50000,2023-02-20
 3,Panadol,95,20000,2023-11-12
 5,Tolak Angin,100,12000,2023-10-10
 1,paracetamol,93,50000,2023-02-20
 3,Panadol,95,20000,2023-11-12
 5,Tolak Angin,100,12000,2023-10-10
+4,yantoro,yanto@gmail.com,08943123989
+5,Rama,rama@gmail.com,08743975632
+4,Senin,15:19:04,15:19:19
+6,Selasa,10:00:00,20:00:00
+7,Rabu,09:00:00,17:00:00
+8,Kamis,07:00:00,13:00:00
+16,Jumat,08:00:00,19:00:00
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
+1,paracetamol,93,50000,2023-02-20
+3,Panadol,95,20000,2023-11-12
+5,Tolak Angin,100,12000,2023-10-10
+4,yantoro,yanto@gmail.com,08943123989
+5,Rama,rama@gmail.com,08743975632
+4,Senin,15:19:04,15:19:19
+6,Selasa,10:00:00,20:00:00
+7,Rabu,09:00:00,17:00:00
+8,Kamis,07:00:00,13:00:00
+16,Jumat,08:00:00,19:00:00
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
+1,Achmad Fadli iskandar,yantoro,Panadol,20000,5,100000,Senin
+3,Muman Abdurahmman,Rama,paracetamol,50000,7,350000,Jumat
